@@ -1,0 +1,79 @@
+[
+  {
+    "name": "ADF Foods Ltd.",
+    "url": "https://www.moneycontrol.com/india/stockpricequote/food-processing/adffoodsindustries/AF30",
+    "stock_name": "ADFFOODS",
+    "suggested_price": 152,
+    "target_price": 304,
+    "buy_percentage_change": 0.1,
+    "sell_percentage_change": 0.1,
+    "buy_status": "Active",
+    "comment": "adsf"
+  },
+  {
+      "name": "Deepak Nitrite Ltd.",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/chemicals/deepaknitrite/DN",
+      "stock_name": "DEEPAKNTR",
+      "suggested_price": 213,
+      "target_price": 426,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "asdf"
+  },
+  {
+      "name": "TPL Plastech Limited",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/plastics/tplplastech/TPL02",
+      "stock_name": "TPLPLASTEH",
+      "suggested_price": 288,
+      "target_price": 576,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "asdf"
+  },
+  {
+      "name": "Yes Bank Limited",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/banks-private-sector/yesbank/YB",
+      "stock_name": "YESBANK",
+      "suggested_price": 300,
+      "target_price": 600,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment":"asdf"
+  },
+  {
+      "name": "Reliance Industries Limited",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI",
+      "stock_name": "RELIANCE",
+      "suggested_price": 900,
+      "target_price": 3000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "asdf"
+  },
+  {
+      "name": "HDFC AMC",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/finance-investments/hdfcassetmanagementcompany/HAM02",
+      "stock_name": "HDFCAMC",
+      "suggested_price": 1000,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "asdf"
+  },
+  {
+      "name": "Butterfly Gandhimathi Appliances Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/domestic-appliances/butterflygandhimathiappliances/GA",
+      "stock_name": "BUTTERFLY",
+      "suggested_price": 200,
+      "target_price": 2,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "asdf"
+  }
+]
