@@ -8,6 +8,7 @@
     "buy_percentage_change": 0.1,
     "sell_percentage_change": 0.1,
     "buy_status": "Active",
+    "sell_status": "Active",
     "comment": "adsf"
   },
   {
@@ -19,6 +20,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "asdf"
   },
   {
@@ -30,6 +32,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "asdf"
   },
   {
@@ -41,7 +44,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "comment":"asdf"
+      "comment":"Reddit Post"
   },
   {
       "name": "Reliance Industries Limited",
@@ -75,5 +78,71 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "comment": "asdf"
+  },
+  {
+      "name": "LT Foods Ltd",
+      "url": "http://www.moneycontrol.com/india/stockpricequote/food-processing/ltfoods/LTF",
+      "stock_name": "DAAWAT",
+      "suggested_price": 50,
+      "target_price": 100,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "Comments comment"
+  },
+  {
+      "name": "Pennar Engineered Building Systems Ltd",
+      "url": "http://www.moneycontrol.com/india/stockpricequote/miscellaneous/pennarengineeredbuildingsystems/PEB",
+      "stock_name": "PENPEBS",
+      "suggested_price": 80,
+      "target_price": 160,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "Comments comment"
+  },
+  {
+      "name": "Aditya Birla Capital Ltd",
+      "url": "http://www.moneycontrol.com/india/stockpricequote/finance-investments/adityabirlacapital/ABC9",
+      "stock_name": "ABCAPITAL",
+      "suggested_price": 150,
+      "target_price": 300,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "Comments comment"
+  },
+  {
+      "name": "Rain Industries Ltd",
+      "url": "http://www.moneycontrol.com/india/stockpricequote/cement-major/rainindustries/RC12",
+      "stock_name": "RAIN",
+      "suggested_price": 125,
+      "target_price": 250,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "Comments comment"
+  },
+  {
+      "name": "Gujarat Narmada Valley Fertlzrs&Chms Ltd",
+      "url": "http://www.moneycontrol.com/india/stockpricequote/fertilisers/gujaratnarmadavalleyfertilizerschemicals/GNV",
+      "stock_name": "GujratNarmada",
+      "suggested_price": 250,
+      "target_price": 500,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "comment": "Comments comment"
+  },
+  {
+      "name": "Ganesh Housing Corporation Ltd",
+      "url": "http://www.moneycontrol.com/india/stockpricequote/construction-contracting-housing/ganeshhousingcorporation/GHC02",
+      "stock_name": "GaneshHousing",
+      "suggested_price": 134,
+      "target_price": 268,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "InActive",
+      "comment": "best pick"
   }
 ]

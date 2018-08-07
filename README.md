@@ -1,2 +1,2 @@
 # stocks
-Stock Ticker
+Stock Automated Ticker
