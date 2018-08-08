@@ -4,7 +4,7 @@
     "url": "https://www.moneycontrol.com/india/stockpricequote/food-processing/adffoodsindustries/AF30",
     "stock_name": "ADFFOODS",
     "suggested_price": 152,
-    "target_price": 304,
+    "target_price": 250,
     "buy_percentage_change": 0.1,
     "sell_percentage_change": 0.1,
     "buy_status": "Active",
@@ -44,6 +44,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment":"Reddit Post"
   },
   {
@@ -55,6 +56,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "asdf"
   },
   {
@@ -66,6 +68,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "asdf"
   },
   {
@@ -77,6 +80,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "asdf"
   },
   {
@@ -88,6 +92,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "Comments comment"
   },
   {
@@ -99,6 +104,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "Comments comment"
   },
   {
@@ -110,6 +116,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "Comments comment"
   },
   {
@@ -121,6 +128,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "Comments comment"
   },
   {
@@ -132,6 +140,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "Comments comment"
   },
   {
@@ -143,6 +152,127 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "InActive",
+      "sell_status": "Active",
       "comment": "best pick"
+  },
+  {
+      "name": "JK Agri Genetics Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
+      "stock_name": "JK Agri Genetics Ltd(BSE)",
+      "suggested_price": 1200,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+  },
+  {
+      "name": "Aditya Birla Fashion and Retail Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/retail/adityabirlafashionretail/PFR",
+      "stock_name": "ABFRL",
+      "suggested_price": 143,
+      "target_price": 286,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "InActive",
+      "sell_status": "Active",
+      "comment": "Best Pick: https://dolly-bestpicks.blogspot.com/2016/07/abfrl-galaxy-of-super-brands.html"
+    },
+  {
+      "name": "JK Agri Genetics Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
+      "stock_name": "JK Agri Genetics Ltd(BSE)",
+      "suggested_price": 1200,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+  },
+  {
+      "name": "JK Agri Genetics Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
+      "stock_name": "JK Agri Genetics Ltd(BSE)",
+      "suggested_price": 1200,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+  },
+  {
+      "name": "JK Agri Genetics Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
+      "stock_name": "JK Agri Genetics Ltd(BSE)",
+      "suggested_price": 1200,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+  },
+  {
+      "name": "JK Agri Genetics Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
+      "stock_name": "JK Agri Genetics Ltd(BSE)",
+      "suggested_price": 1200,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+  },
+  {
+      "name": "JK Agri Genetics Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
+      "stock_name": "JK Agri Genetics Ltd(BSE)",
+      "suggested_price": 1200,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+  },
+  {
+      "name": "JK Agri Genetics Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
+      "stock_name": "JK Agri Genetics Ltd(BSE)",
+      "suggested_price": 1200,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+  },
+  {
+      "name": "JK Agri Genetics Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
+      "stock_name": "JK Agri Genetics Ltd(BSE)",
+      "suggested_price": 1200,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+  },
+  {
+      "name": "JK Agri Genetics Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
+      "stock_name": "JK Agri Genetics Ltd(BSE)",
+      "suggested_price": 1200,
+      "target_price": 2000,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
   }
 ]

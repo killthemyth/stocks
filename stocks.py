@@ -1,5 +1,9 @@
 import json
 import requests
+import datetime
+import smtplib
+import base64
+
 from bs4 import BeautifulSoup
 
 def get_relevant_data_from_url(stock_url):
@@ -10,16 +14,21 @@ def get_relevant_data_from_url(stock_url):
     get_relevant_data = {}
 
     # Get current Price
-    get_relevant_data['current_price'] = soup.find_all(id="Nse_Prc_tick")[0].string.strip()
+    # If NSE not found, find BSE Ex: https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03
 
-    # Get other get_relevant data of iterate_over_stocks
+    if len(list(soup.find_all(id="Nse_Prc_tick"))) > 0:
+        get_relevant_data['current_price'] = soup.find_all(id="Nse_Prc_tick")[0].string.strip()
+    else:
+        get_relevant_data['current_price'] = soup.find_all(id="Bse_Prc_tick")[0].string.strip()
+
+    # todo: Get other get_relevant data of iterate_over_stocks in future to add more metrics
 
     # return
     return get_relevant_data
 
 
-# Add code for status code for both buy and sell
-# Add for sell code
+# TO DO Change return variable and create two different variable
+# Todo: Change comment name
 def get_buy_sell_action(stock, get_relevant_data):
     current_price = float(get_relevant_data['current_price'])
     suggested_price = float(stock['suggested_price'])
@@ -28,11 +37,12 @@ def get_buy_sell_action(stock, get_relevant_data):
     suggested_price_range_low = float(suggested_price - (suggested_price * buy_percentage_change))
     suggested_price_range_high = float(suggested_price + (suggested_price * buy_percentage_change))
 
-    print stock['name'], current_price, suggested_price, suggested_price_range_low, suggested_price_range_high
+    #print stock['name'], current_price, suggested_price, suggested_price_range_low, suggested_price_range_high
 
     # return variable of function
     get_action = {}
 
+    # Buy Logic
     if current_price >= suggested_price and current_price <= suggested_price_range_high:
         get_action['action'] = "Buy"
         get_action['comment'] = "In High Range"
@@ -43,33 +53,70 @@ def get_buy_sell_action(stock, get_relevant_data):
         get_action['action'] = "Buy"
         get_action['comment'] = "Market Corrected"
 
+    # Sell Logic
+    target_price = float(stock['target_price'])
+    sell_percentage_change= float(stock['sell_percentage_change'])
+    sell_price_range_low = float(target_price - (target_price * sell_percentage_change))
+    sell_price_range_high = float(target_price + (target_price * sell_percentage_change))
+
+    if current_price >= target_price and current_price >= sell_price_range_high:
+        get_action['action'] = "Sell"
+        get_action['comment'] = "Market SuperHigh"
+    elif current_price >= target_price and current_price <= sell_price_range_high:
+        get_action['action'] = "Sell"
+        get_action['comment'] = "In High Range"
+    elif current_price <= target_price and current_price >= sell_price_range_low:
+        get_action['action'] = "Sell"
+        get_action['comment'] = "In Low Range"
+
     # Remember size of get_action will be 0 if the stocks fails to qualify for either buy or sell
     return get_action
 
+def send_mail(msg):
+    with open("./emails.json", "r") as read_file:
+        email = json.load(read_file)
+    server = smtplib.SMTP(email['server'], email['port'])
+    server.starttls()
+    server.login(email['from'], base64.b64decode(email['password']))
+
+    print "Sending Mail"
+    server.sendmail(email['from'], email['to'], msg)
+    server.quit()
+
 def prepare_mail(buy_stock_list, sell_stock_list):
-    str = "\n"
+    now = datetime.datetime.now()
+    str = "Date and Time: " + now.strftime("%d-%m-%Y %H:%M") + "\n\n"
+
+    checker  = False
 
     # BUY
     if len(buy_stock_list) == 0:
         str += "No Buy Today\n"
     else:
-        str += "###############\n"
-        str += "#### BUY ######\n"
-        str += "###############\n\n"
+        checker = True
+        str += "#### BUY ######\n\n"
         for s in buy_stock_list:
             str += s['stock_name'] + " : " + s['action_comment'] + " : " + s['comment'] + "\n"
 
     str += "\n-----------------------\n\n"
+
     # SELL
     if len(sell_stock_list) ==  0:
         str += "No Sell Today\n"
     else:
-        print "TODO: ADD SELL Logic"
+        checker = True
+        str += "#### SELL #####\n\n"
+        for s in sell_stock_list:
+            str += s['stock_name'] + " : " + s['action_comment'] + " : " + s['comment'] + "\n"
+
+    if checker:
+        send_mail(str)
+
     print str
 
 def iterate_over_stocks(stocks):
     buy_result = []
-    sell_result = {}
+    sell_result = []
 
     for stock in stocks:
         relevant_data = get_relevant_data_from_url(stock['url'])
@@ -82,15 +129,17 @@ def iterate_over_stocks(stocks):
                 buy_stock['comment']        = stock['comment']
                 buy_stock['action_comment'] = action_data['comment']
                 buy_result                  = buy_result + [buy_stock]
-            elif(action_data['action'] == "Sell"):
-                print "# TO ADD SELL Logic"
+            elif(stock['sell_status'] == "Active" and action_data['action'] == "Sell"):
+                sell_stock = {}
+                sell_stock['stock_name']     = stock['name']
+                sell_stock['comment']        = stock['comment']
+                sell_stock['action_comment'] = action_data['comment']
+                sell_result                  = sell_result + [sell_stock]
 
     prepare_mail(buy_result, sell_result)
 
 # Enable cron job
 # Enable Sending push notification or Email
-# Add if else in case the company is not listed in NSE - Example: JK Agri Genetics Ltd -
-# Add Json comment in future for JH Agri : You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years
 # To Add existing stocks in the json file
 
 if __name__ == "__main__":
