@@ -3,8 +3,12 @@ import requests
 import datetime
 import smtplib
 import base64
+import sendgrid
+import os
+from sendgrid.helpers.mail import *
 
 from bs4 import BeautifulSoup
+
 
 def get_relevant_data_from_url(stock_url):
     page = requests.get(stock_url)
@@ -29,6 +33,8 @@ def get_relevant_data_from_url(stock_url):
 
 # TO DO Change return variable and create two different variable
 # Todo: Change comment name
+# Add percentage in mail Content
+
 def get_buy_sell_action(stock, get_relevant_data):
     current_price = float(get_relevant_data['current_price'])
     suggested_price = float(stock['suggested_price'])
@@ -37,7 +43,7 @@ def get_buy_sell_action(stock, get_relevant_data):
     suggested_price_range_low = float(suggested_price - (suggested_price * buy_percentage_change))
     suggested_price_range_high = float(suggested_price + (suggested_price * buy_percentage_change))
 
-    #print stock['name'], current_price, suggested_price, suggested_price_range_low, suggested_price_range_high
+    print stock['name'], current_price, suggested_price, suggested_price_range_low, suggested_price_range_high
 
     # return variable of function
     get_action = {}
@@ -45,10 +51,10 @@ def get_buy_sell_action(stock, get_relevant_data):
     # Buy Logic
     if current_price >= suggested_price and current_price <= suggested_price_range_high:
         get_action['action'] = "Buy"
-        get_action['comment'] = "In High Range"
+        get_action['comment'] = "Higher then Suggested price"
     elif current_price <= suggested_price and current_price >= suggested_price_range_low:
         get_action['action'] = "Buy"
-        get_action['comment'] = "In Low Range"
+        get_action['comment'] = "Lower then Suggested price"
     elif current_price <= suggested_price_range_low:
         get_action['action'] = "Buy"
         get_action['comment'] = "Market Corrected"
@@ -73,15 +79,16 @@ def get_buy_sell_action(stock, get_relevant_data):
     return get_action
 
 def send_mail(msg):
-    with open("./emails.json", "r") as read_file:
-        email = json.load(read_file)
-    server = smtplib.SMTP(email['server'], email['port'])
-    server.starttls()
-    server.login(email['from'], base64.b64decode(email['password']))
-
-    print "Sending Mail"
-    server.sendmail(email['from'], email['to'], msg)
-    server.quit()
+    sg = sendgrid.SendGridAPIClient(apikey=os.environ.get('SENDGRID_API_KEY'))
+    from_email = Email("kushal.iiita@gmail.com")
+    to_email = Email("kushal.iiita@gmail.com")
+    subject = "Daily Update - Important"
+    content = Content("text/plain", msg)
+    mail = Mail(from_email, subject, to_email, content)
+    response = sg.client.mail.send.post(request_body=mail.get())
+    print(response.status_code)
+    print(response.body)
+    print(response.headers)
 
 def prepare_mail(buy_stock_list, sell_stock_list):
     now = datetime.datetime.now()
@@ -112,7 +119,7 @@ def prepare_mail(buy_stock_list, sell_stock_list):
     if checker:
         send_mail(str)
 
-    print str
+
 
 def iterate_over_stocks(stocks):
     buy_result = []
@@ -139,7 +146,7 @@ def iterate_over_stocks(stocks):
     prepare_mail(buy_result, sell_result)
 
 # Enable cron job
-# Enable Sending push notification or Email
+# Add Logger
 # To Add existing stocks in the json file
 
 if __name__ == "__main__":
