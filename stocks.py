@@ -32,8 +32,8 @@ def get_relevant_data_from_url(stock_url):
 
 
 # TO DO Change return variable and create two different variable
-# Todo: Change comment name
 # Add percentage in mail Content
+# Gmail - Change Spam
 
 def get_buy_sell_action(stock, get_relevant_data):
     current_price = float(get_relevant_data['current_price'])
@@ -51,13 +51,13 @@ def get_buy_sell_action(stock, get_relevant_data):
     # Buy Logic
     if current_price >= suggested_price and current_price <= suggested_price_range_high:
         get_action['action'] = "Buy"
-        get_action['comment'] = "Higher then Suggested price"
+        get_action['comment'] = "Higher than Suggested price"
     elif current_price <= suggested_price and current_price >= suggested_price_range_low:
         get_action['action'] = "Buy"
-        get_action['comment'] = "Lower then Suggested price"
+        get_action['comment'] = "Lower than Suggested price"
     elif current_price <= suggested_price_range_low:
         get_action['action'] = "Buy"
-        get_action['comment'] = "Market Corrected"
+        get_action['comment'] = "Lower than Low buy price "
 
     # Sell Logic
     target_price = float(stock['target_price'])
@@ -67,13 +67,13 @@ def get_buy_sell_action(stock, get_relevant_data):
 
     if current_price >= target_price and current_price >= sell_price_range_high:
         get_action['action'] = "Sell"
-        get_action['comment'] = "Market SuperHigh"
+        get_action['comment'] = "Higher than High Sell Price"
     elif current_price >= target_price and current_price <= sell_price_range_high:
         get_action['action'] = "Sell"
-        get_action['comment'] = "In High Range"
+        get_action['comment'] = "Higher than Target Price"
     elif current_price <= target_price and current_price >= sell_price_range_low:
         get_action['action'] = "Sell"
-        get_action['comment'] = "In Low Range"
+        get_action['comment'] = "Lower than Target Price"
 
     # Remember size of get_action will be 0 if the stocks fails to qualify for either buy or sell
     return get_action
@@ -86,38 +86,39 @@ def send_mail(msg):
     content = Content("text/plain", msg)
     mail = Mail(from_email, subject, to_email, content)
     response = sg.client.mail.send.post(request_body=mail.get())
-    print(response.status_code)
-    print(response.body)
-    print(response.headers)
+    print "Response Status: " + str(response.status_code)
+    print (response.body)
+    print (response.headers)
 
 def prepare_mail(buy_stock_list, sell_stock_list):
     now = datetime.datetime.now()
-    str = "Date and Time: " + now.strftime("%d-%m-%Y %H:%M") + "\n\n"
+    strr = "Date and Time: " + now.strftime("%d-%m-%Y %H:%M") + "\n\n"
 
     checker  = False
 
     # BUY
     if len(buy_stock_list) == 0:
-        str += "No Buy Today\n"
+        strr += "No Buy Today\n"
     else:
         checker = True
-        str += "#### BUY ######\n\n"
+        strr += "#### BUY ######\n\n"
         for s in buy_stock_list:
-            str += s['stock_name'] + " : " + s['action_comment'] + " : " + s['comment'] + "\n"
+            strr += s['stock_name'] + " | CMP: " + str(s['current_price']) + " | CP: " + str(s['buy_sell_price']) + " | P%: " + str(s['percentage']) + " | CS: " + s['action_comment'] + " | SC:  " + s['comment'] + "\n\n"
 
-    str += "\n-----------------------\n\n"
+    strr += "\n-----------------------\n\n"
 
     # SELL
     if len(sell_stock_list) ==  0:
-        str += "No Sell Today\n"
+        strr += "No Sell Today\n"
     else:
         checker = True
-        str += "#### SELL #####\n\n"
+        strr += "#### SELL #####\n\n"
         for s in sell_stock_list:
-            str += s['stock_name'] + " : " + s['action_comment'] + " : " + s['comment'] + "\n"
+            strr += s['stock_name'] + " | CMP: " + str(s['current_price']) + " | SP: " + str(s['buy_sell_price']) + " | P%: " + str(s['percentage']) + " | CS: " + s['action_comment'] + " | SC:  " + s['comment'] + "\n\n"
 
+    print strr
     if checker:
-        send_mail(str)
+        send_mail(strr)
 
 
 
@@ -133,13 +134,19 @@ def iterate_over_stocks(stocks):
             if(stock['buy_status'] == "Active" and action_data['action'] == "Buy"):
                 buy_stock = {}
                 buy_stock['stock_name']     = stock['name']
+                buy_stock['current_price']  = relevant_data['current_price']
+                buy_stock['buy_sell_price'] = stock['suggested_price']
                 buy_stock['comment']        = stock['comment']
+                buy_stock['percentage']     = stock['buy_percentage_change']
                 buy_stock['action_comment'] = action_data['comment']
                 buy_result                  = buy_result + [buy_stock]
             elif(stock['sell_status'] == "Active" and action_data['action'] == "Sell"):
                 sell_stock = {}
                 sell_stock['stock_name']     = stock['name']
+                sell_stock['current_price']  = relevant_data['current_price']
+                sell_stock['buy_sell_price'] = stock['target_price']
                 sell_stock['comment']        = stock['comment']
+                sell_stock['percentage']     = stock['sell_percentage_change']
                 sell_stock['action_comment'] = action_data['comment']
                 sell_result                  = sell_result + [sell_stock]
 
