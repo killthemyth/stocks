@@ -5,6 +5,7 @@ import smtplib
 import base64
 import sendgrid
 import os
+import time
 from sendgrid.helpers.mail import *
 
 from bs4 import BeautifulSoup
@@ -126,6 +127,7 @@ def iterate_over_stocks(stocks):
     sell_result = []
 
     for stock in stocks:
+        time.sleep(1)
         relevant_data = get_relevant_data_from_url(stock['url'])
         action_data   = get_buy_sell_action(stock, relevant_data)
 
