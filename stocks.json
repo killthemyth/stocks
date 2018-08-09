@@ -4,7 +4,7 @@
     "url": "https://www.moneycontrol.com/india/stockpricequote/food-processing/adffoodsindustries/AF30",
     "stock_name": "ADFFOODS",
     "suggested_price": 152,
-    "target_price": 250,
+    "target_price": 304,
     "buy_percentage_change": 0.1,
     "sell_percentage_change": 0.1,
     "buy_status": "Active",
@@ -21,7 +21,7 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "asdf"
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/12/deepak-nitrite-limited.html"
   },
   {
       "name": "TPL Plastech Limited",
@@ -33,7 +33,7 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "asdf"
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html"
   },
   {
       "name": "Yes Bank Limited",
@@ -63,8 +63,8 @@
       "name": "HDFC AMC",
       "url": "https://www.moneycontrol.com/india/stockpricequote/finance-investments/hdfcassetmanagementcompany/HAM02",
       "stock_name": "HDFCAMC",
-      "suggested_price": 1000,
-      "target_price": 2000,
+      "suggested_price": 1100,
+      "target_price": 2200,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
@@ -76,12 +76,12 @@
       "url": "https://www.moneycontrol.com/india/stockpricequote/domestic-appliances/butterflygandhimathiappliances/GA",
       "stock_name": "BUTTERFLY",
       "suggested_price": 200,
-      "target_price": 2,
+      "target_price": 300,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "asdf"
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html#comment-form | It is not advisable to buy at CMP. In case of further correction it can be bought near 200"
   },
   {
       "name": "LT Foods Ltd",
@@ -93,7 +93,7 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comments comment"
+      "comment": "Comment Pick"
   },
   {
       "name": "Pennar Engineered Building Systems Ltd",
@@ -105,7 +105,7 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comments comment"
+      "comment": "Comment Pick"
   },
   {
       "name": "Aditya Birla Capital Ltd",
@@ -117,7 +117,7 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comments comment"
+      "comment": "Comment Pick"
   },
   {
       "name": "Rain Industries Ltd",
@@ -129,7 +129,7 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comments comment"
+      "comment": "Stock Pick"
   },
   {
       "name": "Gujarat Narmada Valley Fertlzrs&Chms Ltd",
@@ -141,7 +141,7 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comments comment"
+      "comment": "Comment Pick"
   },
   {
       "name": "Ganesh Housing Corporation Ltd",
@@ -151,9 +151,9 @@
       "target_price": 268,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "InActive",
+      "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "best pick"
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/04/ganesh-housing-corporation-limited-your.html"
   },
   {
       "name": "JK Agri Genetics Ltd",
@@ -165,7 +165,7 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html | You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
   },
   {
       "name": "Aditya Birla Fashion and Retail Ltd",
@@ -180,99 +180,147 @@
       "comment": "Best Pick: https://dolly-bestpicks.blogspot.com/2016/07/abfrl-galaxy-of-super-brands.html"
     },
   {
-      "name": "JK Agri Genetics Ltd",
-      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
-      "stock_name": "JK Agri Genetics Ltd(BSE)",
-      "suggested_price": 1200,
-      "target_price": 2000,
+      "name": "Gati Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/couriers/gati/G04",
+      "stock_name": "GATI",
+      "suggested_price": 111,
+      "target_price": 222,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
-      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/search?q=GATI"
   },
   {
-      "name": "JK Agri Genetics Ltd",
-      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
-      "stock_name": "JK Agri Genetics Ltd(BSE)",
-      "suggested_price": 1200,
-      "target_price": 2000,
+      "name": "GP Petroleums Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/lubricants/gppetroleums/SP36",
+      "stock_name": "GULFPETRO",
+      "suggested_price": 79,
+      "target_price": 158,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/05/gp-petroleums-ltd-towards-new-horizons.html"
   },
   {
-      "name": "JK Agri Genetics Ltd",
-      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
-      "stock_name": "JK Agri Genetics Ltd(BSE)",
-      "suggested_price": 1200,
-      "target_price": 2000,
+      "name": "ITC Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/cigarettes/itc/ITC",
+      "stock_name": "ITC",
+      "suggested_price": 250,
+      "target_price": 540,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+      "comment": "SELF"
   },
   {
-      "name": "JK Agri Genetics Ltd",
-      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
-      "stock_name": "JK Agri Genetics Ltd(BSE)",
-      "suggested_price": 1200,
-      "target_price": 2000,
+      "name": "Jubilant Industries Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/miscellaneous/jubilantindustries/JI10",
+      "stock_name": "JUBLINDS",
+      "suggested_price": 163,
+      "target_price": 326,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2016/08/jubilant-industry-back-on-track.html"
   },
   {
-      "name": "JK Agri Genetics Ltd",
-      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
-      "stock_name": "JK Agri Genetics Ltd(BSE)",
-      "suggested_price": 1200,
-      "target_price": 2000,
+      "name": "KCP Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/cement-major/kcp/KCP",
+      "stock_name": "KCP",
+      "suggested_price": 107,
+      "target_price": 214,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
-      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/06/kcp-limited-old-is-gold.html"
   },
   {
-      "name": "JK Agri Genetics Ltd",
-      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
-      "stock_name": "JK Agri Genetics Ltd(BSE)",
-      "suggested_price": 1200,
-      "target_price": 2000,
+      "name": "Kesoram Industries Limited",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/diversified/kesoramindustries/KI08",
+      "stock_name": "KESORAMIND",
+      "suggested_price": 144,
+      "target_price": 288,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
-      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/05/kesoram-industries-trusted-technology.html"
   },
   {
-      "name": "JK Agri Genetics Ltd",
-      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
-      "stock_name": "JK Agri Genetics Ltd(BSE)",
-      "suggested_price": 1200,
-      "target_price": 2000,
+      "name": "Kwality Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/food-processing/kwality/KDI01",
+      "stock_name": "KWALITY",
+      "suggested_price": 60,
+      "target_price": 50,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
-      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+      "comment": "SELF"
   },
   {
-      "name": "JK Agri Genetics Ltd",
-      "url": "https://www.moneycontrol.com/india/stockpricequote/fertilisers/jkagrigenetics/JKA03",
-      "stock_name": "JK Agri Genetics Ltd(BSE)",
-      "suggested_price": 1200,
-      "target_price": 2000,
+      "name": "Nitin Spinners Limited",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/textiles-spinning-cotton-blended/nitinspinners/NS12",
+      "stock_name": "NITINSPIN",
+      "suggested_price": 114,
+      "target_price": 228,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "InActive",
+      "sell_status": "Active",
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/01/nitin-spinners-spinning-threads-of.html"
+  },
+  {
+      "name": "Orient Electric Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/orientelectric/orientelectriclimited/ORIEN54130",
+      "stock_name": "ORIENTELEC",
+      "suggested_price": 140,
+      "target_price": 180,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "InActive",
+      "sell_status": "Active",
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/07/orient-paper-industries-switch-to-smart.html"
+  },
+  {
+      "name": "Orient Paper & Industries Limited",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/diversified/orientpaperindustries/OPI",
+      "stock_name": "ORIENTPPR",
+      "suggested_price": 52.30,
+      "target_price": 52,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "InActive",
+      "sell_status": "Active",
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/07/orient-paper-industries-switch-to-smart.html"
+  },
+  {
+      "name": "Sintex Plastics Technology Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/plastics/sintexplasticstechnology/SPT",
+      "stock_name": "SPTL",
+      "suggested_price": 62,
+      "target_price": 124,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "InActive",
+      "sell_status": "Active",
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/03/sintex-plastics-technology-ltd-active.html"
+  },
+  {
+      "name": "Pennar Industries Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/steel-cr-hr-strips/pennarindustries/PI28",
+      "stock_name": "PENIND",
+      "suggested_price": 46,
+      "target_price": 92,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Comment comment pick : https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html, Text: You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/04/pennar-industries-limited-engineering.html"
   }
 ]

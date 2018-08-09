@@ -31,9 +31,8 @@ def get_relevant_data_from_url(stock_url):
     return get_relevant_data
 
 
-# TO DO Change return variable and create two different variable
-# Add percentage in mail Content
-# Gmail - Change Spam
+# todo: Change return variable and create two different variable
+# todo: Gmail - Change Spam
 
 def get_buy_sell_action(stock, get_relevant_data):
     current_price = float(get_relevant_data['current_price'])
@@ -151,10 +150,6 @@ def iterate_over_stocks(stocks):
                 sell_result                  = sell_result + [sell_stock]
 
     prepare_mail(buy_result, sell_result)
-
-# Enable cron job
-# Add Logger
-# To Add existing stocks in the json file
 
 if __name__ == "__main__":
     with open("./stocks.json", "r") as read_file:
