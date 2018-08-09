@@ -33,7 +33,6 @@ def get_relevant_data_from_url(stock_url):
 
 
 # todo: Change return variable and create two different variable
-# todo: Gmail - Change Spam
 
 def get_buy_sell_action(stock, get_relevant_data):
     current_price = float(get_relevant_data['current_price'])
