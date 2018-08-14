@@ -84,16 +84,40 @@
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html#comment-form | It is not advisable to buy at CMP. In case of further correction it can be bought near 200"
   },
   {
+      "name": "Trident Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/textiles-spinning-cotton-blended/trident/AI01",
+      "stock_name": "TRIDENT",
+      "suggested_price": 50,
+      "target_price": 57,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html#comment-form | In case of further correction both stocks can be bought below 50 for long-term investment with expected return around 15% per year"
+  },
+  {
       "name": "LT Foods Ltd",
       "url": "http://www.moneycontrol.com/india/stockpricequote/food-processing/ltfoods/LTF",
       "stock_name": "DAAWAT",
       "suggested_price": 50,
-      "target_price": 100,
+      "target_price": 57,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "Active",
-      "comment": "Comment Pick"
+      "sell_status": "InActive",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html#comment-form | In case of further correction both stocks can be bought below 50 for long-term investment with expected return around 15% per year"
+  },
+  {
+      "name": "Insecticides India Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/pesticides-agro-chemicals/insecticidesindia/II16",
+      "stock_name": "INSECTICID",
+      "suggested_price": 663,
+      "target_price": 900,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html#comment-form | Result is good and you can continue to hold it for further gain, future growth potential is very high for this stock"
   },
   {
       "name": "Pennar Engineered Building Systems Ltd",
@@ -112,7 +136,7 @@
       "url": "http://www.moneycontrol.com/india/stockpricequote/finance-investments/adityabirlacapital/ABC9",
       "stock_name": "ABCAPITAL",
       "suggested_price": 150,
-      "target_price": 300,
+      "target_price": 172,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
