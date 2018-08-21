@@ -175,7 +175,7 @@
       "target_price": 268,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/04/ganesh-housing-corporation-limited-your.html"
   },
@@ -247,7 +247,7 @@
       "target_price": 326,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2016/08/jubilant-industry-back-on-track.html"
   },
