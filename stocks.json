@@ -346,5 +346,29 @@
       "buy_status": "Active",
       "sell_status": "Active",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/04/pennar-industries-limited-engineering.html"
+  },
+  {
+      "name": "Godrej Agrovet Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/miscellaneous/godrejagrovet/GA03",
+      "stock_name": "GODREJAGRO",
+      "suggested_price": 500,
+      "target_price": 550,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-krishna-janmashtami.html"
+  },
+  {
+      "name": "Amarjothi Spinning Mills Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/textiles-spinning-cotton-blended/amarjothispinningmills/ASM01",
+      "stock_name": "AMARJOTHI",
+      "suggested_price": 105,
+      "target_price": 250,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-krishna-janmashtami.html"
   }
 ]
