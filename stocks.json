@@ -370,5 +370,41 @@
       "buy_status": "Active",
       "sell_status": "InActive",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-krishna-janmashtami.html"
+  },
+  {
+      "name": "Wonderla Holidays Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/miscellaneous/wonderlaholidays/WH01",
+      "stock_name": "WONDERLA",
+      "suggested_price": 248,
+      "target_price": 285,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-krishna-janmashtami.html"
+  },
+  {
+      "name": "Srikalahasthi Pipes Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/steel-pig-iron/srikalahasthipipes/LI03",
+      "stock_name": "SRIPIPES",
+      "suggested_price": 176,
+      "target_price": 202,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-krishna-janmashtami.html"
+  },
+  {
+      "name": "IG Petrochemicals Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/chemicals/igpetrochemicals/IGP",
+      "stock_name": "IGPL",
+      "suggested_price": 389,
+      "target_price": 447,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-krishna-janmashtami.html"
   }
 ]
