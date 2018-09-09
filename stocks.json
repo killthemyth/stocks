@@ -406,5 +406,17 @@
       "buy_status": "Active",
       "sell_status": "InActive",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-krishna-janmashtami.html"
+  },
+  {
+      "name": "Bharat Gears Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/auto-ancillaries/bharatgears/BG01",
+      "stock_name": "BHARATGEAR",
+      "suggested_price": 189,
+      "target_price": 378,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html" 
   }
 ]
