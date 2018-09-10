@@ -8,7 +8,7 @@
     "buy_percentage_change": 0.1,
     "sell_percentage_change": 0.1,
     "buy_status": "Active",
-    "sell_status": "Active",
+    "sell_status": "InActive",
     "comment": "adsf"
   },
   {
@@ -20,7 +20,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "Active",
+      "sell_status": "InActive",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/12/deepak-nitrite-limited.html"
   },
   {
@@ -44,14 +44,14 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "Active",
+      "sell_status": "InActive",
       "comment":"Reddit Post"
   },
   {
       "name": "Reliance Industries Limited",
       "url": "https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI",
       "stock_name": "RELIANCE",
-      "suggested_price": 900,
+      "suggested_price": 880,
       "target_price": 3000,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
@@ -68,7 +68,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "Active",
+      "sell_status": "InActive",
       "comment": "asdf"
   },
   {
@@ -115,8 +115,8 @@
       "target_price": 900,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
-      "sell_status": "InActive",
+      "buy_status": "InActive",
+      "sell_status": "Active",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html#comment-form | Result is good and you can continue to hold it for further gain, future growth potential is very high for this stock"
   },
   {
@@ -128,7 +128,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "Active",
+      "sell_status": "InActive",
       "comment": "Comment Pick"
   },
   {
@@ -152,7 +152,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "Active",
+      "sell_status": "InActive",
       "comment": "Stock Pick"
   },
   {
@@ -164,7 +164,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "Active",
+      "sell_status": "InActive",
       "comment": "Comment Pick"
   },
   {
@@ -188,7 +188,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "Active",
+      "sell_status": "InActive",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html | You can book some profit above 2000 and keep rest of the shares for further gain. Still there is huge growth potential in next 4- 5 years"
   },
   {
@@ -235,7 +235,7 @@
       "target_price": 540,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
       "comment": "SELF"
   },
@@ -343,7 +343,7 @@
       "target_price": 92,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/04/pennar-industries-limited-engineering.html"
   },
@@ -416,7 +416,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "InActive",
+      "sell_status": "Active",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html" 
   }
 ]
