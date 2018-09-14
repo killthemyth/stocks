@@ -147,13 +147,13 @@
       "name": "Rain Industries Ltd",
       "url": "http://www.moneycontrol.com/india/stockpricequote/cement-major/rainindustries/RC12",
       "stock_name": "RAIN",
-      "suggested_price": 125,
-      "target_price": 250,
+      "suggested_price": 100,
+      "target_price": 200,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "InActive",
-      "comment": "Stock Pick"
+      "comment": "Stock Pick | Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html | Still you can wait for further correction and buy near 100"
   },
   {
       "name": "Gujarat Narmada Valley Fertlzrs&Chms Ltd",
@@ -417,6 +417,18 @@
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "Active",
-      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html" 
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html"
+  },
+  {
+      "name": "Nandan Denim Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/textiles-denim/nandandenim/NE06",
+      "stock_name": "NDL",
+      "suggested_price": 60,
+      "target_price": 120 ,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html | Yes it has given a very good opportunity to buy near 60"
   }
 ]
