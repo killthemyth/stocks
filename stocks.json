@@ -147,13 +147,13 @@
       "name": "Rain Industries Ltd",
       "url": "http://www.moneycontrol.com/india/stockpricequote/cement-major/rainindustries/RC12",
       "stock_name": "RAIN",
-      "suggested_price": 100,
+      "suggested_price": 120,
       "target_price": 200,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "InActive",
-      "comment": "Stock Pick | Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html | Still you can wait for further correction and buy near 100"
+      "comment": "Stock Pick | Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html | Still you can wait for further correction and buy near 100 | Comment pick: https://dolly-bestpicks.blogspot.com/2018/09/happy-ganesh-chaturthi.html#comment-form | Yes you can buy Asian Granito on further correction around 200 and rain industry near 120"
   },
   {
       "name": "Gujarat Narmada Valley Fertlzrs&Chms Ltd",
@@ -424,11 +424,23 @@
       "url": "https://www.moneycontrol.com/india/stockpricequote/textiles-denim/nandandenim/NE06",
       "stock_name": "NDL",
       "suggested_price": 60,
-      "target_price": 120 ,
+      "target_price": 120,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
       "sell_status": "InActive",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html | Yes it has given a very good opportunity to buy near 60"
+  },
+  {
+      "name": "Asian Granito India Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/ceramics-granite/asiangranitoindia/AGI04",
+      "stock_name": "ASIANTILES",
+      "suggested_price": 200,
+      "target_price": 400,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "InActive",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-ganesh-chaturthi.html#comment-form | Asian Granito is good long-term investment option in this sector near 200. Not tracking other stocks"
   }
 ]
