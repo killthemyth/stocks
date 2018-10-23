@@ -31,7 +31,7 @@
       "target_price": 576,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html"
   },
@@ -127,7 +127,7 @@
       "target_price": 160,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "InActive",
       "comment": "Comment Pick"
   },
@@ -367,7 +367,7 @@
       "target_price": 250,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "InActive",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-krishna-janmashtami.html"
   },
@@ -391,7 +391,7 @@
       "target_price": 202,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "InActive",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-krishna-janmashtami.html"
   },
@@ -415,7 +415,7 @@
       "target_price": 378,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "Active",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/09/bharat-gears-limited-geared-for-life.html"
   },
@@ -439,7 +439,7 @@
       "target_price": 400,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "Active",
+      "buy_status": "InActive",
       "sell_status": "InActive",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-ganesh-chaturthi.html#comment-form | Asian Granito is good long-term investment option in this sector near 200. Not tracking other stocks"
   }
