@@ -8,7 +8,7 @@
     "buy_percentage_change": 0.1,
     "sell_percentage_change": 0.1,
     "buy_status": "Active",
-    "sell_status": "InActive",
+    "sell_status": "Active",
     "comment": "adsf"
   },
   {
@@ -20,7 +20,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "InActive",
+      "sell_status": "Active",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2017/12/deepak-nitrite-limited.html"
   },
   {
@@ -31,7 +31,7 @@
       "target_price": 576,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "InActive",
+      "buy_status": "Active",
       "sell_status": "Active",
       "comment": "Post Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html"
   },
@@ -39,12 +39,12 @@
       "name": "Yes Bank Limited",
       "url": "https://www.moneycontrol.com/india/stockpricequote/banks-private-sector/yesbank/YB",
       "stock_name": "YESBANK",
-      "suggested_price": 300,
+      "suggested_price": 200,
       "target_price": 600,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "InActive",
+      "sell_status": "Active",
       "comment":"Reddit Post"
   },
   {
@@ -68,7 +68,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "InActive",
+      "sell_status": "Active",
       "comment": "asdf"
   },
   {
@@ -80,7 +80,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "InActive",
+      "sell_status": "Active",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html#comment-form | It is not advisable to buy at CMP. In case of further correction it can be bought near 200"
   },
   {
@@ -92,7 +92,7 @@
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
       "buy_status": "Active",
-      "sell_status": "InActive",
+      "sell_status": "Active",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/08/tpl-plastech-ltd.html#comment-form | In case of further correction both stocks can be bought below 50 for long-term investment with expected return around 15% per year"
   },
   {
@@ -435,12 +435,24 @@
       "name": "Asian Granito India Ltd",
       "url": "https://www.moneycontrol.com/india/stockpricequote/ceramics-granite/asiangranitoindia/AGI04",
       "stock_name": "ASIANTILES",
-      "suggested_price": 200,
+      "suggested_price": 160,
       "target_price": 400,
       "buy_percentage_change": 0.1,
       "sell_percentage_change": 0.1,
-      "buy_status": "InActive",
-      "sell_status": "InActive",
+      "buy_status": "Active",
+      "sell_status": "Active",
       "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/09/happy-ganesh-chaturthi.html#comment-form | Asian Granito is good long-term investment option in this sector near 200. Not tracking other stocks"
+  },
+  {
+      "name": "Associated Alcohol and Breweries Ltd",
+      "url": "https://www.moneycontrol.com/india/stockpricequote/breweries-distilleries/associatedalcoholbreweries/AAB",
+      "stock_name": "ASOCALCHOL",
+      "suggested_price": 250,
+      "target_price": 500,
+      "buy_percentage_change": 0.1,
+      "sell_percentage_change": 0.1,
+      "buy_status": "Active",
+      "sell_status": "Active",
+      "comment": "Comment Pick | https://dolly-bestpicks.blogspot.com/2018/12/happy-new-year-2019.html#comment-form | You can start buying in small quantity add it further on every correction below 250" 
   }
 ]
